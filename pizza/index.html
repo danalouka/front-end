@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Best News Ever!</title>
+    <meta charset ="UTF-8">
+    <meta name = "description" content = "this page is a webpage to learn html">
+    <meta name = "keywords" content = "html5, udemy, learn code">
+    <meta name = "author:" content="Dana Louka">
+    <meta name= "vieport" content="width=device-width, inital-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+
+    <header id = "main-header">
+      <h1>Best News Ever</h1>
+      <h3>We don't care if it's accurate. We care that it's the BEST!</h3>
+    </header>
+
+    <main>
+
+      <section>
+
+        <h2>About Me</h2>
+        <p>I am bla bla bla</p>
+
+      </section>
+
+      <section>
+
+        <article>
+          <img src="download.jpg" />
+          <h3><a href = "#">Dog kidnaps clown</a></h3>
+          <p>In a shocking turn of events, dog kidnaps clown.</p>
+        </article>
+
+        <article>
+          <img src="./chocolate.png" />
+          <h3><a href = "#">Dog kidnaps clown</a></h3>
+          <p>In a shocking turn of events, dog kidnaps clown.</p>
+        </article>
+
+        <article>
+          <img width = 30% src="C:\Users\User\Desktop\program ideas\pizza\lol.png">
+          <h3><a href = "#">Dog kidnaps clown</a></h3>
+          <p>In a shocking turn of events, dog kidnaps clown.</p>
+        </article>
+
+      </section>
+
+      <section id= "contact-form">
+        <h2>Place Order</h2>
+        <form method = "GET" action = "place-order.php">
+
+          <h4>Delivery</h4>
+          <input type="radio" name="delivery" value="delivery"> Delivery <br />
+          <input type="radio" name="delivery" value="pickup"> Pickup <br />
+
+          <h4>Address</h4>
+          <input name= "adress1" placeholder = "Adress Line 1" class = "lg-input"/><br />
+          <input name= "adress2" placeholder="Adress Line 2" class= "lg-input"/> <br/>
+          <input name= "city" placeholder="City" class = "sm-input"/>
+          <input name= "state" placeholder="State" class = "sm-input"/> <br/>
+          <input name= "zip"placeholder="Zip" class = "sm-input" > <br/>
+
+          <h4>Size</h4>
+          <select name = "size">
+            <option value = "12"> 12" - $13.99 </option>
+            <option value = "16"> 16" - $16.99 </option>
+            <option value = "18"> 18" - $19.99 </option>
+          </select>
+
+          <h4>Ingredients</h4>
+          <input name = "ingredient" type = checkbox value = "peppreoni"/> Pepperoni <br/>
+          <input name = "ingredient" type = checkbox value = "salami"/> Salami <br/>
+          <input name = "ingredient" type = checkbox value = "bacon"/> Bacon <br/>
+          <input name = "ingredient" type = checkbox value = "sausage"/> Sausage <br/>
+          <input name = "ingredient" type = checkbox value = "onion"/> Onion <br/>
+
+          <button type = "submit"> Place Order</button>
+        </form>
+      </section>
+
+      <section>
+        <video width = 540 height = 320 controls>
+          <source src="./videos/nature.mp4" type="video/mp4">
+          Your browser does not support HTML5.
+        </video>
+      </section>
+
+      <section>
+        <audio id = "mysound" width = "600" controls>
+          <source src="./audio/rihanna.mp3" type="audio/mp3">
+        </auio>
+      </section>
+
+
+
+    </main>
+
+    <footer>
+      <center> &copy; Copyright 2020</center>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300 !important;
+  margin : 0px;
+}
+
+body > header > h3 {
+  font-weight: 300;
+  margin : 0px;
+}
+
+#main-header {
+  border-bottom : 2px solid #000;
+  margin : 20px 30px
+}
