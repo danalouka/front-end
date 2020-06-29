@@ -1,0 +1,15 @@
+/*
+Dana Louka
+*/
+var numbers = [43, 60 , 48, 348, 834, 200];
+var words = ["Apple", "Banana", "Horse", "Dragon"];
+var numbers2 = [ 6, 12, 13, 10, 14 ,1, 2, 7, 8, 9, 20, 3, 4, 5,15,16 ,17 ,18, 19]
+
+class Animal {
+
+  constructor(){
+    console.log("CCC")
+  }
+}
+
+var dog = new Animal();
